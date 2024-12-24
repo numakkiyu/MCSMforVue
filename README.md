@@ -139,49 +139,6 @@ cnpm run electron:build
 5. **日志查看**：
    - 后端日志保存在 `backend/logs/mc_mapper.log`，可用于调试和查看操作记录。
 
-## 项目结构
-
-```
-mc-port-mapper/
-├── backend/
-│   ├── app.py
-│   ├── analyze.py
-│   ├── launcher.py
-│   ├── logger.py
-│   ├── mappings.py
-│   ├── port.py
-│   └── run.py
-├── frontend/
-│   ├── src/
-│   │   ├── assets/
-│   │   │   ├── main.css
-│   │   │   └── icon.png
-│   │   ├── components/
-│   │   │   ├── ServerMonitor.vue
-│   │   │   └── TitleBar.vue
-│   │   ├── router/
-│   │   │   └── index.js
-│   │   ├── store/
-│   │   │   └── index.js
-│   │   ├── utils/
-│   │   │   ├── animations.js
-│   │   │   ├── dataTransfer.js
-│   │   │   ├── date.js
-│   │   │   ├── hotkeys.js
-│   │   │   ├── motd.js
-│   │   │   ├── request.js
-│   │   │   └── theme.js
-│   │   ├── App.vue
-│   │   └── main.js
-│   ├── public/
-│   │   └── index.html
-│   ├── electron/
-│   │   └── main.js
-│   ├── package.json
-│   └── .env.development
-└── README.md
-```
-
 ## 贡献
 
 欢迎提交Issues和Pull Requests。如果你有新的功能建议或发现bug，请随时提出。
