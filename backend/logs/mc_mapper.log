@@ -1,0 +1,13 @@
+2024-12-24 14:44:09 - INFO - [logger.py:55] - 映射配置文件不存在，返回空列表
+2024-12-24 14:44:09 - INFO - [logger.py:55] - 成功保存 1 个映射配置
+2024-12-24 14:44:09 - INFO - [logger.py:55] - 添加映射成功: test
+2024-12-24 14:44:09 - INFO - [logger.py:55] - 成功加载 1 个映射配置
+2024-12-24 14:44:09 - INFO - [logger.py:55] - 开始解析地址: localhost:25565
+2024-12-24 14:44:10 - WARNING - [logger.py:63] - SRV记录解析失败: localhost, 错误: All nameservers failed to answer the query _minecraft._tcp.localhost. IN SRV: 
+2024-12-24 14:44:10 - ERROR - [logger.py:59] - A记录解析失败: localhost, 错误: All nameservers failed to answer the query localhost. IN A: 
+2024-12-24 14:44:10 - ERROR - [logger.py:59] - 解析失败: localhost, 错误: All nameservers failed to answer the query localhost. IN A: 
+2024-12-24 14:44:10 - INFO - [logger.py:55] - 成功加载 1 个映射配置
+2024-12-24 14:44:10 - INFO - [logger.py:55] - 开始解析地址: localhost:25565
+2024-12-24 14:44:10 - WARNING - [logger.py:63] - SRV记录解析失败: localhost, 错误: All nameservers failed to answer the query _minecraft._tcp.localhost. IN SRV: 
+2024-12-24 14:44:10 - ERROR - [logger.py:59] - A记录解析失败: localhost, 错误: All nameservers failed to answer the query localhost. IN A: 
+2024-12-24 14:44:10 - ERROR - [logger.py:59] - 解析失败: localhost, 错误: All nameservers failed to answer the query localhost. IN A: 

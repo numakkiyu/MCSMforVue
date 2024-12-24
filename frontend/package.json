@@ -1,0 +1,52 @@
+{
+  "name": "mc-port-mapper",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:serve": "vue-cli-service serve & electron .",
+    "electron:build": "vue-cli-service build && electron-builder"
+  },
+  "build": {
+    "appId": "com.mcportmapper.app",
+    "productName": "MC端口映射工具",
+    "directories": {
+      "output": "dist_electron"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "assets/icon.ico"
+    },
+    "extraResources": [
+      {
+        "from": "../backend",
+        "to": "backend",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0",
+    "element-plus": "^2.3.0",
+    "axios": "^1.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0",
+    "@vue/compiler-sfc": "^3.3.0",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  }
+}
